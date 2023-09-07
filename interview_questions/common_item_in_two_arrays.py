@@ -77,7 +77,6 @@ def test_with_all_same_items():
     arr1 = ['a', 'a', 'a', 'a', 'a', 'a']
     arr2 = ['z', 'y', 'x']
     assert common_item(arr1, arr2) is False, 'Failed with all same items'
-
     arr1 = ['a', 'a', 'a', 'a', 'a', 'a']
     arr2 = ['z', 'a', 'x']
     assert common_item(arr1, arr2) is True, 'Failed with all same items'
@@ -93,7 +92,6 @@ def test_with_none_item():
     arr1 = ['a', None, 'c', 'x']
     arr2 = ['z', 'y', 'x']
     assert common_item(arr1, arr2) is True, 'Failed with none item'
-
     arr1 = ['a', None, 'c', 'x']
     arr2 = ['z', 'y', None]
     assert common_item(arr1, arr2) is True, 'Failed with none item'
