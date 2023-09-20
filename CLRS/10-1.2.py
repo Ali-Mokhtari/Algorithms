@@ -15,8 +15,7 @@ Methods:
 4. Pop2(): Remove and return the most recently inserted element from stack 2.
 5. IsEmpty1(): Return true if stack 1 is empty, false otherwise.
 6. IsEmpty2(): Return true if stack 2 is empty, false otherwise.
-6. IsFull(): Return true if total number of elements in stack 1 and stack 2 is
-   n, false otherwise.
+6. IsFull(): Return true if top1 == top2 - 1, false otherwise.
 
 Solution:
 1. Create a class called TwoStacks.
